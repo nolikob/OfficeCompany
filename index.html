@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Office Company - Hlavní stránka</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/gallery.css">
+   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="jumbotron">
+      <h1 class="text-center">
+        Office Company
+      </h1>
+      <br>
+      <h4 class="text-center">Vítejte na stránkách společnosti Office Company. Najdete zde naši nabídku produktů a služeb.</h4>
+    </header>
+  <div class="container">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+            data-toggle="collapse" 
+            data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+
+            </button> <a href="index.html" class="navbar-brand">
+                Office Company
+            </a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+            <li role="Hlavni stranka" class="active"><a href="index.html" class="col-md-12"><span class="glyphicon glyphicon-home"></span> <strong>Domů</strong></a></li>
+            <li role="Sluzby"><a href="sluzby.html" class="navLink col-md-12"><span class="glyphicon glyphicon-book"></span> <strong>Služby</strong></a></li>
+            <li role="Nabidka" ><a href="sortiment.html" class="navLink col-md-12"><span id="menuico" class="glyphicon glyphicon-shopping-cart"></span> <strong>Sortiment</strong></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+    <main>
+      <article>
+        <h2 class="page-header text-center">O nás</h2>
+        Společnost Office Company byla založena v roce 2001. Od začátku se specialuzujeme na prodej a rozvoz kancelářských a školních
+        potřeb, planografii, výrobu razítek, vizitek. Rovněž nabízíme i další služby souvisejících s provozem kanceláří.
+        <br> Nově se v našich prostorách nachází i pobočka Zásilkovny. <br> Taktéž u nás najdete dětský sortiment, který
+        jsem nově rozšířili o kvalitní karnevalové kostýmy. <br> V budoucnu rovzněž plánujeme další rozšíření našich služeb.
+        <em>Tým Office Company</em>
+      </article>
+      <div id="galerie">
+        <h2 class="page-header text-center">Galerie</h2>
+        <div class="row">
+          <div>
+            <img src="./Pics/thumb1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+          <div>
+            <img src="./Pics/thumb9.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow col-xs-6 col-md-3">
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1/9</div>
+              <img src="./Pics/1.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2/9</div>
+              <img src="./Pics/2.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3/9</div>
+              <img src="./Pics/3.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4/9</div>
+              <img src="./Pics/4.jpg">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">5/9</div>
+              <img src="./Pics/5.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6/9</div>
+              <img src="./Pics/6.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7/9</div>
+              <img src="./Pics/7.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8/9</div>
+              <img src="./Pics/8.jpg">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">9/9</div>
+              <img src="./Pics/9.jpg">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="contact">
+        <h2 class="page-header text-center">Kontakt</h2>
+        <div class="col-xs-12 col-md-6">
+          <p>Tel: 257 71 25 41</p><br>
+          <p>V Zahradách 1084, Dobřichovice, 252 29</p><br>
+          <p>Pro více informací: <em>info@officecompany.cz</em></p><br>
+          <p>Pro zaslání materiálů pro tisk: <em>tisk@officecompany.cz</em></p><br>
+        </div>
+        <div id="map2" class="col-xs-12 col-md-6">
+          <img class="ratio" src="http://placehold.it/16x9"/>
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBbFHH45Ow9rF-O1YIXWSRxHTC3W_NNEqU&q=Office Company, V Zahradách, Dobřichovice"></iframe>
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBbFHH45Ow9rF-O1YIXWSRxHTC3W_NNEqU&q=Office Company, V Zahradách, Dobřichovice" width="480" height="320" id="map" ></iframe>
+        </div>
+      </section>
+  </div>
+ <footer>
+      <p>Copyright &copy <span id="curYear"></span></p>
+    </footer>
+  <script src="js/script.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+
+</html>

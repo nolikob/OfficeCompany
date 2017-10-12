@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.jumbotron > h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+h2,h4{
+    font-family: Raleway;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #263238;
+}
+
+#special{
+    height: 70vh;
+}
+
+#special > p {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+footer p{
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+div.sluzby {
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 3rem;
+    border-bottom: 1px solid #a0a0a0;
+    width: auto;
+}
+
+div.row img {
+    padding-bottom: 3rem;
+}
+.centered {
+    /*text-align: center;*/
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+#galerie {
+    padding-bottom: 3rem;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+article {
+    font-family: Raleway;
+    font-size: 1.8rem;
+}
+
+.navLink {
+    color: #EBEBEB !important;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    background-image: url("../Pics/jmb_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.jumbotron > h1,h4 {
+    text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
+}
+.special{
+    transform: rotate(-90deg);
+}
+#contact{
+    display: block;
+    height: 50vh;
+    padding-bottom: 8rem;  
+}
+.navbar-default{
+    background-color: #0288D1;
+    color: #FEFEFE !important;
+    border: none;
+}
+.navbar-brand{
+    color: #FEFEFE !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #01579B !important;
+    color: white;
+}
+#map2 {
+        padding-bottom: 3rem;
+        display: none;
+    }
+
+@media(max-width: 767px) {
+    #contact{
+    display: block;
+    /*height: 50vh;*/
+    padding-bottom: 8rem;  
+}
+    nav div a.col-xs-12 {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #contact{
+        position: relative;
+    display: block;
+    height: 105vh;
+    padding-bottom: 6rem;  
+}
+    nav div.col-xs-12 {
+        background-color: transparent;
+    }
+    div.row img {
+        padding-bottom: 3rem;
+    }
+    .icon-bar {
+        color: #fff;
+    }
+    .jumbotron {
+    margin-top: 40px;
+    }
+    .jumbotron > h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ 
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle{
+        border-color: #fff;
+    }
+    .navbar-toggle:hover{
+        background-color: #01579B !important;
+    }
+    #map2 {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+    }
+     #map {
+        display: none;
+        position: relative;
+        padding-bottom: 3rem;
+    }  
+    #map2 .ratio {display:block;width:100%;height:auto;}
+    #map2 iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+    .navbar-collapse{
+        border-color: none;
+    }
+}
